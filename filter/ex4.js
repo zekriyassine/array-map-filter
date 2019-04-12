@@ -30,11 +30,11 @@ Sortie attendue:
 
 function filterOnPrice(products, maxPrice) {
   const newArr = products.filter(function(el){
-    return el.price < maxPrice
+    return el.price <= maxPrice
 
   })
-  
-}return newArr
+  return newArr
+}
 
 // Ne pas modifier l'export
 module.exports = filterOnPrice;

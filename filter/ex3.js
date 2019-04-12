@@ -29,7 +29,10 @@ function keepStarks(names) {
     return el.endsWith("Stark")
 
   })
- } return newArr 
+  return newArr 
+ } 
+
 
 // Ne pas modifier l'export
+
 module.exports = keepStarks;

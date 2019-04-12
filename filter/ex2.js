@@ -17,7 +17,7 @@ Exemple d'entrée:
 
 function getMultiplesOf(numbers, n) {
   const newArr = numbers.filter(function(elem){
-    return numbers % n === 0 
+    return elem % n === 0 
 
   })
   return newArr
